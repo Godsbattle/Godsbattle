@@ -4,5 +4,3 @@
 - 💞️ I’m looking to collaborate on Blockchain technology related jobs!!!
 - 📫 How to reach me? Email : christian@godsbattle.net
 
-<script src="https://gumroad.com/js/gumroad-embed.js"></script>
-<div class="gumroad-product-embed"><a href="https://chrisgoingturbo.gumroad.com/l/proptracker">Loading...</a></div>
