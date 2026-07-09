@@ -111,7 +111,7 @@ Expected: one commit containing only the approved `README.md` change.
 - Verify: `docs/superpowers/plans/2026-07-09-github-profile-refresh.md`
 
 **Interfaces:**
-- Consumes: Local commits on `main`.
+- Consumes: Reviewed local commits on `codex/profile-refresh`.
 - Produces: Updated `origin/main` in `Godsbattle/Godsbattle`.
 
 - [ ] **Step 1: Check the exact commits and working tree before publication**
@@ -124,17 +124,17 @@ git log --oneline origin/main..HEAD
 git diff --check origin/main..HEAD
 ```
 
-Expected: a clean working tree after the implementation plan is committed; only the reviewed design, implementation plan, and README commits are ahead of `origin/main`.
+Expected: a clean working tree on `codex/profile-refresh`; only the reviewed design, implementation plan, and README changes are ahead of `origin/main`.
 
 - [ ] **Step 2: Push the approved profile changes**
 
 Run:
 
 ```bash
-git push origin main
+git push origin HEAD:main
 ```
 
-Expected: `main -> main` succeeds without a non-fast-forward rejection.
+Expected: `HEAD -> main` succeeds without a non-fast-forward rejection.
 
 - [ ] **Step 3: Verify GitHub serves the new README**
 
