@@ -14,7 +14,7 @@ Most things I create begin with a problem I encounter myself as a trader. I turn
 
 It began as a solution for my own trading workflow and is being developed for other traders facing the same problems.
 
-Most development happens in a private monorepo. Public beta releases are available in [trackmyprop-desktop-releases](https://github.com/Godsbattle/trackmyprop-desktop-releases).
+trackmyprop is being developed privately as a long-term product.
 
 ## What I do
 
